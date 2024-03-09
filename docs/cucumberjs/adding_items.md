@@ -35,7 +35,7 @@ StartupEvents.registry("item", (event) => {
         .create("test_sickle", "sickle")
         .texture("layer0", "cucumberjs:item/sickle_handle")
         .texture("layer1", "cucumberjs:item/sickle_head")
-        .color(0xd5a34c);
+        .color(1, 0xd5a34c);
     // Creates a plain white/grey watering can
     event
         .create("test_wateringcan", "wateringcan")
